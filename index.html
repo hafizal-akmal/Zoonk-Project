@@ -27,6 +27,9 @@
       };
     </script>
     <style>
+      html {
+        scroll-behavior: smooth;
+      }
       /* Gaya kustom untuk memastikan semua elemen interaktif memiliki ukuran yang layak disentuh */
       /* Navigasi: Gaya untuk tautan, lebih besar dan mudah diklik */
       .nav-link {
@@ -128,6 +131,19 @@
     class="min-h-screen font-sans text-white scroll-smooth bg-cover bg-center bg-repeat"
     style="background-image: url('assets/img/Ijo\ tua\ comp.png')"
   >
+  <nav
+        class="bg-board-lilac text-dark-charcoal p-2 md:p-3 shadow-lg mb-8 mx-auto w-full max-w-xl text-center sticky top-0 z-50 rounded-2xl"
+      >
+        <div
+          class="flex flex-wrap justify-center gap-2 md:gap-4 text-sm md:text-base font-semibold"
+        >
+          <a href="#" class="nav-link rounded-lg">Home</a>
+          <a href="#page dua" class="nav-link rounded-lg">Our Mascot</a>
+          <a href="#page tiga" class="nav-link rounded-lg">Merchandise</a>
+          <a href="#page empat" class="nav-link rounded-lg">Info</a>
+          <a href="#page lima" class="nav-link rounded-lg">Contact</a>
+        </div>
+      </nav>
     <!-- Kontainer Pusat Utama -->
     <div
       id="page satu"
@@ -135,19 +151,7 @@
       style="background-image: url('assets/img/Ijo\ tua\ comp.png')"
     >
       <!-- Navigasi -->
-      <nav
-        class="bg-board-lilac text-dark-charcoal p-2 md:p-3 shadow-lg mb-8 mx-auto w-full max-w-xl text-center"
-      >
-        <div
-          class="flex flex-wrap justify-center gap-2 md:gap-4 text-sm md:text-base font-semibold"
-        >
-          <a href="#" class="nav-link rounded-lg">Home</a>
-          <a href="#page dua" class="nav-link rounded-lg">Our Mascot</a>
-          <a href="#" class="nav-link rounded-lg">Merchandise</a>
-          <a href="#" class="nav-link rounded-lg">Info</a>
-          <a href="#" class="nav-link rounded-lg">Contact</a>
-        </div>
-      </nav>
+      
 
       <!-- Area Logo (Diperbarui untuk tumpang tindih lebih banyak) -->
       <header class="flex justify-center -mb-32 md:-mb-48 relative z-10">
@@ -271,7 +275,7 @@
 
           <!-- Item 2 -->
           <div class="flex items-center space-x-4">
-            <div
+            <div 
               class="flex-grow h-24 bg-board-lilac rounded-l-full shadow-md items-center flex justify-center">
               <img
                 src="assets/img/hitupai.PNG"
@@ -559,7 +563,7 @@
 
           <!-- Teks di bagian bawah --><!-- Mengubah 'mt-16 sm:mt-8' menjadi 'mt-8' -->
           <div
-            class="-mt-32 mb-12 bg-[#6b4f42] text-yellow-100/90 text-3xl sm:text-4xl font-bold py-4 px-12 rounded-lg transform rotate-1"
+            class="-mt-32 mb-12 bg-[#6b4f42] text-yellow-100/90 text-3xl sm:text-4xl font-bold py-4 px-12 rounded-lg transform rotate-1  shadow-lg transition transform hover:scale-105 hover:bg-[#7c5b4f]"
           >
             Our Next Concert: Lapangan Kukusan
           </div>
@@ -579,6 +583,106 @@
           onerror="this.onerror=null;this.src='https://placehold.co/600x200/2F3C34/B3A2C7?text=ZOONK!+LOGO';"
         />
       </header>
+      <!-- Team Cards -->
+<div class="flex flex-col items-center gap-14 mt-14">
+
+    <!-- BARIS ATAS (2 card) -->
+    <div class="flex justify-center gap-14">
+
+        <!-- Card 1 -->
+        <a href="https://www.instagram.com/khairaghd?igsh=MW00YTNjMW1udDhkdg==" target="_blank"
+           class="group w-64 bg-[#D5E5C3] rounded-t-full pt-8 pb-6 text-center shadow-lg 
+                  transition transform duration-300 hover:-translate-y-2 hover:shadow-2xl">
+            
+            <div class="w-32 h-32 rounded-full overflow-hidden bg-white mx-auto mb-5">
+                <img src="assets/img/foto kai.jpeg" class="w-full h-full object-cover">
+            </div>
+
+            <h3 class="text-black font-bold text-base group-hover:text-gray-700 transition">
+                KHAIRA GHAIDA
+            </h3>
+            <p class="text-black font-semibold text-sm group-hover:text-gray-700 transition">
+                PROJECT MANAGER
+            </p>
+        </a>
+
+        <!-- Card 2 -->
+        <a href="https://www.instagram.com/daynairanatalie?igsh=MWFkYmxyeHRzeWkzNA==" target="_blank"
+           class="group w-64 bg-[#D5E5C3] rounded-t-full pt-8 pb-6 text-center shadow-lg 
+                  transition transform duration-300 hover:-translate-y-2 hover:shadow-2xl">
+            
+            <div class="w-32 h-32 rounded-full overflow-hidden bg-white mx-auto mb-5">
+                <img src="assets/img/foto day.jpeg" class="w-full h-full object-cover">
+            </div>
+
+            <h3 class="text-black font-bold text-base group-hover:text-gray-700 transition">
+                MARIA DAYNAIRA
+            </h3>
+            <p class="text-black font-semibold text-sm group-hover:text-gray-700 transition">
+                DESIGNER
+            </p>
+        </a>
+
+    </div>
+
+
+    <!-- BARIS BAWAH (3 card) -->
+    <div class="flex justify-center gap-14">
+
+        <!-- Card 3 -->
+        <a href="https://www.instagram.com/hafizalakmall?igsh=aGg2ejB2eTlkcTR2" target="_blank"
+           class="group w-64 bg-[#D5E5C3] rounded-t-full pt-8 pb-6 text-center shadow-lg 
+                  transition transform duration-300 hover:-translate-y-2 hover:shadow-2xl">
+            
+            <div class="w-32 h-32 rounded-full overflow-hidden bg-white mx-auto mb-5">
+                <img src="assets/img/foto akmal.jpeg" class="w-full h-full object-cover">
+            </div>
+
+            <h3 class="text-black font-bold text-base group-hover:text-gray-700 transition">
+                HAFIZAL AKMAL
+            </h3>
+            <p class="text-black font-semibold text-sm group-hover:text-gray-700 transition">
+                TECHNICAL LEAD
+            </p>
+        </a>
+
+        <!-- Card 4 -->
+        <a href="https://www.instagram.com/ryankevyy?igsh=MXNwb3dqaHJsNjNqNQ==" target="_blank"
+           class="group w-64 bg-[#D5E5C3] rounded-t-full pt-8 pb-6 text-center shadow-lg 
+                  transition transform duration-300 hover:-translate-y-2 hover:shadow-2xl">
+            
+            <div class="w-32 h-32 rounded-full overflow-hidden bg-white mx-auto mb-5">
+                <img src="assets/img/foto ryan.jpeg" class="w-full h-full object-cover">
+            </div>
+
+            <h3 class="text-black font-bold text-base group-hover:text-gray-700 transition">
+                M. ADRIANSYAH
+            </h3>
+            <p class="text-black font-semibold text-sm group-hover:text-gray-700 transition">
+                ENGINEER
+            </p>
+        </a>
+
+        <!-- Card 5 -->
+        <a href="https://instagram.com/username5" target="_blank"
+           class="group w-64 bg-[#D5E5C3] rounded-t-full pt-8 pb-6 text-center shadow-lg 
+                  transition transform duration-300 hover:-translate-y-2 hover:shadow-2xl">
+            
+            <div class="w-32 h-32 rounded-full overflow-hidden bg-white mx-auto mb-5">
+                <img src="assets/img/foto roby.jpeg" class="w-full h-full object-cover">
+            </div>
+
+            <h3 class="text-black font-bold text-base group-hover:text-gray-700 transition">
+                M. HANUROBY
+            </h3>
+            <p class="text-black font-semibold text-sm group-hover:text-gray-700 transition">
+                ENGINEER
+            </p>
+        </a>
+
+    </div>
+
+</div>
     </div>
 
     <footer class="mt-12 text-center text-gray-400 text-sm">
