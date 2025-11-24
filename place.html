@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Previous Concerts - Zoonkies</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      /* 1. Import Font Bebas Neue */
+      @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+      body {
+        font-family: "Bebas Neue", sans-serif;
+        color: #f0e6c8; /* Warna teks krem */
+      }
+
+      /* 2. CSS untuk Latar Belakang Kertas Bergaris */
+      .bg-crumpled-paper {
+        background-color: #381a20; /* Warna dasar Merah Gelap */
+        background-image: 
+        /* Garis Margin Vertikal (Kiri) */ linear-gradient(
+            90deg,
+            transparent 79px,
+            #2a1217 79px,
+            #2a1217 82px,
+            transparent 82px
+          ),
+          /* Garis Baris Horizontal */
+            repeating-linear-gradient(
+            transparent,
+            transparent 49px,
+            #2a1217 50px
+          );
+        background-size: 100% 100%, 100% 50px; /* Ukuran pattern */
+        position: relative;
+      }
+
+      /* Efek Tekstur Kertas Lecek Overlay */
+      .bg-crumpled-paper::before {
+        content: "";
+        position: fixed;
+        inset: 0;
+        box-shadow: inset 0 0 150px rgba(0, 0, 0, 0.6);
+        pointer-events: none;
+        z-index: 1;
+      }
+    </style>
+  </head>
+  <body class="bg-crumpled-paper min-h-screen p-4 md:p-8 overflow-x-hidden bg-cover bg-center bg-no-repeat" style="background-image: url('Ungu Tua.PNG')"></body>
+    
+    <main class="relative z-10 max-w-[95vw] mx-auto pl-8 md:pl-24 pt-10">
+      
+      <div class="mb-20">
+        <h1
+          class="text-7xl md:text-9xl tracking-wider inline-block border-b-[8px] border-[#f0e6c8] pb-4 mb-6 shadow-[0_4px_0_rgba(0,0,0,0.3)]"
+        >
+          PREVIOUS CONCERTS!
+        </h1>
+        <h2 class="text-3xl md:text-5xl tracking-widest opacity-90">
+          LET'S SEE WHERE ZOONKIES HAVE BEEN...
+        </h2>
+      </div>
+
+      <div
+        class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-16 items-start pb-20"
+      >
+        <div class="flex flex-col items-center group">
+          <div
+            class="relative transform -rotate-3 transition-transform group-hover:scale-105 group-hover:rotate-0 duration-300 w-full"
+          >
+            <img
+              src="assets/img/ragunan.png"
+              alt="Ragunan Zoo"
+              class="w-full h-auto drop-shadow-2xl shadow-black/50"
+              onerror="this.src='https://placehold.co/600x400/381a20/f0e6c8?text=Ragunan+Photo';"
+            />
+          </div>
+          <p class="mt-8 text-4xl md:text-5xl tracking-wide text-center drop-shadow-md">Ragunan Zoo</p>
+        </div>
+
+        <div class="flex flex-col items-center group mt-12 md:mt-0">
+          <div
+            class="relative transform rotate-2 transition-transform group-hover:scale-105 group-hover:rotate-0 duration-300 w-full"
+          >
+            <img
+              src="assets/img/safari.png"
+              alt="Safari Zoo"
+              class="w-full h-auto drop-shadow-2xl shadow-black/50"
+              onerror="this.src='https://placehold.co/600x400/381a20/f0e6c8?text=Safari+Photo';"
+            />
+          </div>
+          <p class="mt-8 text-4xl md:text-5xl tracking-wide text-center drop-shadow-md">Safari Zoo</p>
+        </div>
+
+        <div class="flex flex-col items-center group">
+          <div
+            class="relative transform -rotate-2 transition-transform group-hover:scale-105 group-hover:rotate-0 duration-300 w-full"
+          >
+            <img
+              src="assets/img/seaworld.png"
+              alt="Sea World"
+              class="w-full h-auto drop-shadow-2xl shadow-black/50"
+              onerror="this.src='https://placehold.co/600x400/381a20/f0e6c8?text=SeaWorld+Photo';"
+            />
+          </div>
+          <p class="mt-8 text-4xl md:text-5xl tracking-wide text-center drop-shadow-md">Sea World</p>
+        </div>
+
+        <div class="flex flex-col items-center group mt-12 md:mt-0">
+          <div
+            class="relative transform rotate-3 transition-transform group-hover:scale-105 group-hover:rotate-0 duration-300 w-full"
+          >
+            <img
+              src="assets/img/balibird.png"
+              alt="Bali Bird Park"
+              class="w-full h-auto drop-shadow-2xl shadow-black/50"
+              onerror="this.src='https://placehold.co/600x400/381a20/f0e6c8?text=Bali+Bird+Photo';"
+            />
+          </div>
+          <p class="mt-8 text-4xl md:text-5xl tracking-wide text-center drop-shadow-md">Bali Bird Park</p>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

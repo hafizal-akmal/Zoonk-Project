@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Zoonkies</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      .sticker {
+        filter: drop-shadow(2px 4px 6px rgba(0, 0, 0, 0.5))
+          drop-shadow(0 0 0 2px white);
+        transition: transform 0.2s;
+      }
+      .sticker:hover {
+        transform: scale(1.05) rotate(3deg);
+      }
+
+      /* Import Font Bebas Neue */
+      @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+      /* Pakai Bebas Neue untuk SELURUH PAGE */
+      body,
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6,
+      p,
+      span,
+      div,
+      a,
+      button {
+        font-family: "Bebas Neue", sans-serif !important;
+        letter-spacing: 0.03em; /* optional: biar lebih aesthetic */
+      }
+
+      /* Garis Buku Tulis */
+      .paper-lines {
+        background-color: #381a20;
+        background-image: linear-gradient(
+            90deg,
+            transparent 79px,
+            #ab4444 79px,
+            #ab4444 82px,
+            transparent 82px
+          ),
+          repeating-linear-gradient(transparent, transparent 39px, #2a1217 40px);
+        background-size: 100% 100%, 100% 40px;
+      }
+    </style>
+  </head>
+  <body
+    class="min-h-screen text-[#f0e6c8] p-4 md:p-8 overflow-x-hidden relative bg-cover bg-center bg-no-repeat"
+    style="background-image: url('assets/img/Ungu\ tua\ comp.png')"
+  >
+    <main class="max-w-5xl mx-auto pt-10 md:pt-16 pl-8 md:pl-24 relative z-10">
+      <div class="mb-10">
+        <h1
+          class="text-6xl md:text-8xl tracking-wide leading-none inline-block border-b-4 border-[#f0e6c8] pb-1 shadow-[0_2px_0_rgba(0,0,0,0.5)]"
+        >
+          ABOUT ZOONKIES!
+        </h1>
+        <div
+          class="w-full h-1 border-b-2 border-[#f0e6c8] mt-1 opacity-70"
+        ></div>
+      </div>
+
+      <div class="mb-6 flex flex-wrap items-baseline gap-2">
+        <span
+          class="text-3xl md:text-4xl underline decoration-2 underline-offset-4 tracking-wider"
+        >
+          ZOONKIES
+        </span>
+        <span class="text-xl md:text-2xl opacity-80 tracking-widest font-sans">
+          (pronounced /zuː/n/kiːz/)
+        </span>
+      </div>
+
+      <div
+        class="text-2xl md:text-4xl leading-snug tracking-wide space-y-8 text-justify opacity-90"
+      >
+        <p>
+          Meet The Zoonkies! the most adorable a cappella group ever assembled,
+          where every member sings in a different dialect of devotion! Our group
+          is an imaginary vocal group with 5 member, taken from the concept of 5
+          love language where each of them represents the manifestations of this
+          concept. Together, they don't just sing—they perform a symphony of the
+          heart.
+        </p>
+      </div>
+
+      <div class="mt-16 md:mt-24">
+        <a href="Index.html#page dua">
+          <img
+            src="assets/img/Green zoonkies.png"
+            alt="Our Zoonkies"
+            class="w-48 md:w-64 opacity-90 transform -rotate-3 drop-shadow-lg sticker"
+            onerror="this.src='https://placehold.co/300x100/3e2745/FFF?text=OUR+Zoonkies';"
+          />
+        </a>
+      </div>
+    </main>
+
+    <div
+      class="fixed inset-0 pointer-events-none shadow-[inset_0_0_100px_rgba(0,0,0,0.7)] z-20"
+    ></div>
+  </body>
+</html>

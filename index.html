@@ -38,6 +38,7 @@
       };
     </script>
     <style>
+      @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
       /* Gaya kustom untuk memastikan semua elemen interaktif memiliki ukuran yang layak disentuh */
       /* Navigasi: Gaya untuk tautan, lebih besar dan mudah diklik */
       .nav-link {
@@ -136,7 +137,7 @@
 
       .title-text {
         /* Efek teks "bubbly" seperti di gambar */
-        font-family: "Fredoka One";
+        font-family: "Fredoka One", cursive;
         color: #e6e0f0; /* Warna ungu pucat */
         /* Membuat outline putih tebal menggunakan text-shadow */
         text-shadow: 3px 3px 0 #ffffff, -3px -3px 0 #ffffff, 3px -3px 0 #ffffff,
@@ -207,8 +208,7 @@
     style="background-image: url('assets/img/Ijo\ tua\ comp.png')"
   >
    <nav
-        class="bg-board-lilac text-dark-charcoal p-2 md:p-3 shadow-lg mb-8 mx-auto w-full max-w-xl text-center sticky top-4 z-50 rounded-lg"
-      >
+        class="bg-board-lilac text-dark-charcoal p-2 md:p-3 shadow-lg mb-8 mx-auto w-full max-w-xl text-center sticky top-4 z-50 rounded-lg">
         <div
           class="flex flex-wrap justify-center gap-2 md:gap-4 text-sm md:text-base font-semibold"
         >
@@ -221,92 +221,62 @@
       </nav>
     <!-- Kontainer Pusat Utama -->
     <div
-      id="page satu"
-      class="min-h-screen p-4 md:p-8 font-sans text-white bg-cover bg-center bg-no-repeat"
-      style="background-image: url('assets/img/Ijo\ tua\ comp.png')"
-    >
+  id="page satu"
+  class="min-h-screen p-4 md:p-8 text-white bg-cover bg-center bg-no-repeat"
+  style="background-image: url('Ijo Tua.PNG'); font-family: 'Bebas Neue', sans-serif;"
+>
 
-      <!-- Navigasi -->
-      
-
-<!--  
-      <header class="flex justify-center -mb-32 md:-mb-48 relative z-10"><img
-          src="Zoonk logo.png"
-          alt="Logo Zoonk! bergaya coretan"
-          class="max-w-full h-auto w-[1000px] object-contain"
-          onerror="this.onerror=null;this.src='https://placehold.co/600x200/2F3C34/B3A2C7?text=ZOONK!+LOGO';"
-        />
-      </header>
-       -->
-
-      <!-- Papan Memo Interaktif (Area Konten Utama) -->
   <main class="relative w-full h-[85vh] flex justify-center items-center">
-        
-        <!-- --- DECORATIVE STARS (Responsive Sizes) --- -->
-        <!-- Top Left Cluster -->
-        <img src="assets/img/star.png" class="absolute top-[14%] left-[10%] max-h-24 w-auto opacity-80 rotate-[-15deg] sticker" alt="Star">
-        <img src="assets/img/star.png" class="absolute top-[30%] left-[5%] max-h-24 w-auto opacity-70 rotate-12 sticker" alt="Star">
-        <img src="assets/img/star.png" class="absolute top-[50%] left-[10%] max-h-24 w-auto opacity-75 rotate-[-45deg] sticker" alt="Star">
+    
+    <img src="assets/img/star.png" class="absolute top-[14%] left-[10%] max-h-24 w-auto opacity-80 rotate-[-15deg] sticker" alt="Star">
+    <img src="assets/img/star.png" class="absolute top-[30%] left-[5%] max-h-24 w-auto opacity-70 rotate-12 sticker" alt="Star">
+    <img src="assets/img/star.png" class="absolute top-[50%] left-[10%] max-h-24 w-auto opacity-75 rotate-[-45deg] sticker" alt="Star">
 
-        <!-- Top Right Cluster -->
-        <img src="assets/img/star.png" class="absolute top-[13%] right-[10%] max-h-24 w-auto opacity-80 rotate-12 sticker" alt="Star">
-        <img src="assets/img/star.png" class="absolute top-[31%] right-[5%] max-h-24 w-auto opacity-80 rotate-[-10deg] sticker" alt="Star">
-        <img src="assets/img/star.png" class="absolute top-[50x  %] right-[15%] max-h-24 w-auto opacity-70 rotate-45 sticker" alt="Star">
+    <img src="assets/img/star.png" class="absolute top-[13%] right-[10%] max-h-24 w-auto opacity-80 rotate-12 sticker" alt="Star">
+    <img src="assets/img/star.png" class="absolute top-[31%] right-[5%] max-h-24 w-auto opacity-80 rotate-[-10deg] sticker" alt="Star">
+    <img src="assets/img/star.png" class="absolute top-[50%] right-[15%] max-h-24 w-auto opacity-70 rotate-45 sticker" alt="Star">
 
 
-        <!-- --- MAIN LOGO (Massive Responsive Width) --- -->
-        <div class="z-10 relative mb-[15vh]">
-            <img src="assets/img/Zoonk logo.png" class="w-[65vw] max-w-none drop-shadow-2xl drop-shadow-xl/25" alt="Zoonk! Logo">
-        </div>
-
-
-        <!-- --- ANIMAL STICKERS (Responsive Positioning & Sizing) --- -->
-        
-        <!-- Squirrel (Top Left) -->
-        <img src="assets/img/Tupai.PNG" class="absolute top-[5%] left-[2%] w-[18vw] max-h-48 w-auto rotate-12 sticker z-20" alt="Squirrel">
-
-        <!-- Panda (Top Right) -->
-        <img src="assets/img/panda.PNG" class="absolute top-[5%] right-[2%] w-[18vw] max-h-48 w-auto rotate-[-6deg] sticker z-20" alt="Panda">
-
-        <!-- Otter (Bottom Left) -->
-        <img src="assets/img/berang.PNG" class="absolute bottom-[20%] left-[5%] w-[20vw] max-h-64 w-auto rotate-[-10deg] sticker z-20" alt="Otter">
-
-        <!-- Bird (Bottom Right) -->
-        <img src="assets/img/burung.PNG" class="absolute bottom-[18%] right-[5%] w-[18vw] max-h-64 w-auto rotate-12 sticker z-20" alt="Bird">
-
-        <!-- Cat (Bottom Center - Overlapping buttons slightly) -->
-        <img src="assets/img/kucing.PNG" class="absolute bottom-[2%] left-[63%] transform max-h-48 w-auto -translate-x-1/2 w-[15vw] rotate-6 sticker z-30" alt="Cat">
-
-
-        <!-- --- BUTTONS CONTAINER --- -->
-        <div class="absolute bottom-[5%] w-full flex justify-center gap-[4vw] px-4">
-            
-            <!-- Button 1 -->
-            <button class="zoonk-btn w-[22vw] h-[12vw] flex items-center justify-center p-2 group drop-shadow-2xl outer-shadow-xl/50">
-    <span class="text-[#3e2745] text-[3vw] leading-none text-center">
-        ABOUT OUR<br>GROUP
-    </span>
-</button>
-
-
-            <!-- Button 2 -->
-            <button class="zoonk-btn w-[22vw] h-[12vw] flex items-center justify-center p-2 group drop-shadow-xl/50">
-                <span class="text-[#3e2745] text-[3vw] leading-none text-center">
-                    PREVIOUS<br>CONCERTS
-                </span>
-            </button>
-
-            <!-- Button 3 -->
-            <button class="zoonk-btn w-[22vw] h-[12vw] flex items-center justify-center p-2 group">
-                <span class="text-[#3e2745] text-[3vw] leading-none text-center">
-                    OUR<br>MERCH'S
-                </span>
-            </button>
-        </div>
-
-    </main>
+    <div class="z-10 relative mb-[15vh]">
+        <img src="assets/img/Zoonk logo.png" class="w-[65vw] max-w-none drop-shadow-2xl drop-shadow-xl/25" alt="Zoonk! Logo">
     </div>
 
+
+    <img src="assets/img/Tupai.PNG" class="absolute top-[5%] left-[2%] w-[18vw] max-h-48 w-auto rotate-12 sticker z-20" alt="Squirrel">
+    <img src="assets/img/panda.PNG" class="absolute top-[5%] right-[2%] w-[18vw] max-h-48 w-auto rotate-[-6deg] sticker z-20" alt="Panda">
+    <img src="assets/img/berang.PNG" class="absolute bottom-[20%] left-[5%] w-[20vw] max-h-64 w-auto rotate-[-10deg] sticker z-20" alt="Otter">
+    <img src="assets/img/burung.PNG" class="absolute bottom-[18%] right-[5%] w-[18vw] max-h-64 w-auto rotate-12 sticker z-20" alt="Bird">
+    <img src="assets/img/kucing.PNG" class="absolute bottom-[2%] left-[63%] transform max-h-32 w-auto -translate-x-1/2 w-[15vw] rotate-6 sticker z-30" alt="Cat">
+
+
+<div class="absolute bottom-[5%] w-full flex justify-center gap-[4vw] px-4">
+        
+    <a href="aboutpage.html" 
+       class="zoonk-btn w-[22vw] h-[12vw] flex items-center justify-center p-2 group drop-shadow-2xl outer-shadow-xl/50 sticker block">
+        <span class="text-[#3e2745] text-[3vw] leading-none text-center tracking-wide">
+            ABOUT OUR<br>GROUP
+        </span>
+    </a>
+
+    <a href="place.html"
+       class="zoonk-btn w-[22vw] h-[12vw] flex items-center justify-center p-2 group drop-shadow-xl/50 sticker block">
+        <span class="text-[#3e2745] text-[3vw] leading-none text-center tracking-wide">
+            PREVIOUS<br>CONCERTS
+        </span>
+    </a>
+
+    <a href="#page tiga"
+       class="zoonk-btn w-[22vw] h-[12vw] flex items-center justify-center p-2 group sticker block"> 
+        <span class="text-[#3e2745] text-[3vw] leading-none text-center tracking-wide">
+            OUR<br>MERCH
+        </span>
+    </a>
+
+</div>
+
+
+  </main>
+</div>
 <div id="page dua" class="min-h-screen p-4 md:p-8 font-sans text-white bg-cover bg-center bg-no-repeat" style="background-image: url('assets/img/Ungu\ tua\ comp.png')">
   
   <header class="flex justify-center -mb-32 md:-mb-48 relative z-10 mb-16 -mt-16">
@@ -321,35 +291,35 @@
     
     <div class="flex flex-wrap justify-center gap-6 w-full max-w-7xl mt-16 mx-auto">
 
-      <div onclick="bukaPopup('assets/img/Biokucing.png')" class="group flex items-center w-full md:w-[30%] min-w-[300px] cursor-pointer transition-transform hover:scale-105 duration-300">
+      <div onclick="bukaPopup(0)" class="group flex items-center w-full md:w-[30%] min-w-[300px] cursor-pointer transition-transform hover:scale-105 duration-300">
         <img src="assets/img/kucing.PNG" alt="Kucing" class="profile-pic max-w-auto h-[128px] relative z-20" />
         <div class="flex-grow h-[80px] bg-board-lilac bg-[#B3A2C7] rounded-r-full shadow-md items-center flex justify-center overflow-hidden -ml-8 pl-8 pr-3">
           <img src="assets/img/hikucing.PNG" alt="Hi Kucing" class="max-w-full object-contain mr-4" />
         </div>
       </div>
 
-      <div onclick="bukaPopup('assets/img/Biotupai.png')" class="group flex items-center w-full md:w-[30%] min-w-[300px] cursor-pointer transition-transform hover:scale-105 duration-300">
+      <div onclick="bukaPopup(1)" class="group flex items-center w-full md:w-[30%] min-w-[300px] cursor-pointer transition-transform hover:scale-105 duration-300">
         <img src="assets/img/Tupai.PNG" alt="Tupai" class="profile-pic max-w-auto h-[128px] relative z-20" />
         <div class="flex-grow h-[80px] bg-board-lilac bg-[#B3A2C7] rounded-r-full shadow-md items-center flex justify-center overflow-hidden -ml-8 pl-9 pr-3 pt-3">
           <img src="assets/img/hitupai.PNG" alt="Hi Tupai" class="max-w-full object-contain mr-4" />
         </div>
       </div>
 
-      <div onclick="bukaPopup('assets/img/Biopanda.png')" class="group flex items-center w-full md:w-[30%] min-w-[300px] cursor-pointer transition-transform hover:scale-105 duration-300">
+      <div onclick="bukaPopup(2)" class="group flex items-center w-full md:w-[30%] min-w-[300px] cursor-pointer transition-transform hover:scale-105 duration-300">
         <img src="assets/img/panda.PNG" alt="Panda" class="profile-pic max-w-auto h-[128px] relative z-20" />
         <div class="flex-grow h-[80px] bg-board-lilac bg-[#B3A2C7] rounded-r-full shadow-md items-center flex justify-center overflow-hidden -ml-8 pl-8 pr-3">
           <img src="assets/img/hipanda.PNG" alt="Hi Panda" class="max-w-full object-contain mr-4" />
         </div>
       </div>
 
-      <div onclick="bukaPopup('assets/img/Bioberang.png')" class="group flex items-center w-full md:w-[30%] min-w-[300px] cursor-pointer transition-transform hover:scale-105 duration-300">
+      <div onclick="bukaPopup(3)" class="group flex items-center w-full md:w-[30%] min-w-[300px] cursor-pointer transition-transform hover:scale-105 duration-300">
         <div class="flex-grow h-[80px] bg-board-lilac bg-[#B3A2C7] rounded-l-full shadow-md items-center flex justify-center overflow-hidden pr-12 pl-3 pb-4">
           <img src="assets/img/hiberang.PNG" alt="Hi Berang" class="max-w-full object-contain ml-4 -mb-4" />
         </div>
         <img src="assets/img/berang.PNG" alt="Berang" class="profile-pic max-w-auto h-[128px] relative z-20 -ml-10" />
       </div>
 
-      <div onclick="bukaPopup('assets/img/Bioburung.png')" class="group flex items-center w-full md:w-[30%] min-w-[300px] cursor-pointer transition-transform hover:scale-105 duration-300">
+      <div onclick="bukaPopup(4)" class="group flex items-center w-full md:w-[30%] min-w-[300px] cursor-pointer transition-transform hover:scale-105 duration-300">
         <div class="flex-grow h-[80px] bg-board-lilac bg-[#B3A2C7] rounded-l-full shadow-md items-center flex justify-center overflow-hidden pr-12 pl-3">
           <img src="assets/img/hipoppy.PNG" alt="Hi Burung" class="max-w-full object-contain ml-4 -mb-4" />
         </div>
@@ -360,128 +330,258 @@
   </main>
 </div>
 
-<div id="overlayPopup" class="hidden fixed inset-0 z-[9999] bg-black bg-opacity-80 flex justify-center items-center p-4 backdrop-blur-sm" onclick="tutupPopup()">
+<div id="overlayPopup" class="hidden fixed inset-0 z-[9999] bg-black bg-opacity-95 flex justify-center items-center p-4 backdrop-blur-md" onclick="tutupPopup()">
   
-  <div class="relative max-w-4xl w-full flex justify-center items-center" onclick="event.stopPropagation()">
+  <div class="relative w-full max-w-7xl flex items-center justify-between gap-4 md:gap-8 h-[60vh] md:h-[80vh]" onclick="event.stopPropagation()">
     
-    <button onclick="tutupPopup()" class="absolute -top-10 right-0 md:-right-4 bg-red-600 hover:bg-red-700 text-white font-bold rounded-full w-10 h-10 flex items-center justify-center shadow-lg transition-colors border-2 border-white">
+    <button onclick="tutupPopup()" class="absolute -top-12 right-0 md:right-4 z-50 bg-red-600 hover:bg-red-700 text-white rounded-full w-10 h-10 flex items-center justify-center shadow-lg border-2 border-white transition-transform hover:scale-110">
       X
     </button>
 
-    <img id="gambarBio" src="" alt="Bio Hewan" class="max-h-[80vh] max-w-full object-contain rounded-xl shadow-2xl border-4 border-white/20" />
-  
+    <div onclick="gantiHewan(-1)" class="hidden md:flex w-1/5 h-64 cursor-pointer group relative items-center justify-center transition-all duration-300 transform hover:scale-105">
+      <div class="absolute inset-0 bg-black bg-opacity-60 rounded-xl z-10 hover:bg-opacity-20 transition-all"></div>
+      <div class="w-full h-full bg-gray-800 rounded-xl flex items-center justify-center overflow-hidden border-2 border-white/20">
+         <img id="imgPrev" src="" alt="Previous" class="w-full h-full object-contain opacity-50 blur-[2px] group-hover:blur-0 transition-all" />
+      </div>
+    </div>
+
+    <div class="relative flex-grow h-full flex justify-center items-center z-30 px-2">
+      <button onclick="gantiHewan(-1)" class="md:hidden absolute left-0 p-3 bg-white/20 text-white rounded-r-lg hover:bg-white/40 z-40 text-2xl font-bold">❮</button>
+      
+      <div class="w-full h-full flex items-center justify-center">
+        <img id="gambarBio" src="" alt="Main Bio" class="max-h-full max-w-full object-contain rounded-xl drop-shadow-2xl transition-all duration-300" 
+             onerror="this.src='https://placehold.co/600x400/000000/FFF?text=File+Tidak+Ditemukan';" />
+      </div>
+      
+      <button onclick="gantiHewan(1)" class="md:hidden absolute right-0 p-3 bg-white/20 text-white rounded-l-lg hover:bg-white/40 z-40 text-2xl font-bold">❯</button>
+    </div>
+
+    <div onclick="gantiHewan(1)" class="hidden md:flex w-1/5 h-64 cursor-pointer group relative items-center justify-center transition-all duration-300 transform hover:scale-105">
+      <div class="absolute inset-0 bg-black bg-opacity-60 rounded-xl z-10 hover:bg-opacity-20 transition-all"></div>
+      <div class="w-full h-full bg-gray-800 rounded-xl flex items-center justify-center overflow-hidden border-2 border-white/20">
+        <img id="imgNext" src="" alt="Next" class="w-full h-full object-contain opacity-50 blur-[2px] group-hover:blur-0 transition-all" />
+      </div>
+    </div>
+
   </div>
-  <script>
-    function bukaPopup(namaFile) {
-    var overlay = document.getElementById('overlayPopup');
-    var gambar = document.getElementById('gambarBio');
+</div>
 
-    // 1. Set gambar sesuai file yang diklik
-    gambar.src = namaFile;
+<script>
+  // DAFTAR NAMA FILE (Case Sensitive / Huruf Besar Pengaruh)
+  // Sesuai permintaan: Huruf Depan Besar, .png kecil
+  const urutanGambar = [
+    'assets/img/Biokucing.png',  // 0
+    'assets/img/Biotupai.png',   // 1
+    'assets/img/Biopanda.png',   // 2
+    'assets/img/Bioberang.png',  // 3
+    'assets/img/Bioburung.png'   // 4
+  ];
 
-    // 2. Tampilkan overlay (hapus class hidden)
+  let indexSaatIni = 0; 
+
+  function bukaPopup(index) {
+    indexSaatIni = index;
+    updateTampilanModal();
+    
+    const overlay = document.getElementById('overlayPopup');
     overlay.classList.remove('hidden');
     overlay.classList.add('flex');
   }
 
   function tutupPopup() {
-    var overlay = document.getElementById('overlayPopup');
-    var gambar = document.getElementById('gambarBio');
-
-    // 1. Sembunyikan overlay
+    const overlay = document.getElementById('overlayPopup');
     overlay.classList.add('hidden');
     overlay.classList.remove('flex');
-
-    // 2. Reset gambar (opsional, biar bersih saat dibuka lagi)
-    setTimeout(function() {
-      gambar.src = '';
-    }, 200);
   }
 
-  // Fitur Tambahan: Tekan tombol ESC untuk menutup
+  function gantiHewan(arah) {
+    indexSaatIni += arah;
+
+    // Logika Loop (Carousel)
+    if (indexSaatIni >= urutanGambar.length) {
+      indexSaatIni = 0;
+    } else if (indexSaatIni < 0) {
+      indexSaatIni = urutanGambar.length - 1;
+    }
+
+    updateTampilanModal();
+  }
+
+  function updateTampilanModal() {
+    const total = urutanGambar.length;
+    // Rumus matematika untuk menentukan siapa prev & next
+    let prevIndex = (indexSaatIni - 1 + total) % total;
+    let nextIndex = (indexSaatIni + 1) % total;
+
+    const imgMain = document.getElementById('gambarBio');
+    const imgPrev = document.getElementById('imgPrev');
+    const imgNext = document.getElementById('imgNext');
+
+    // Efek Fade (Bikin transparan dulu)
+    imgMain.style.opacity = '0';
+    imgPrev.style.opacity = '0';
+    imgNext.style.opacity = '0';
+    
+    setTimeout(() => {
+      // Ganti Source Gambar
+      imgMain.src = urutanGambar[indexSaatIni];
+      imgPrev.src = urutanGambar[prevIndex];
+      imgNext.src = urutanGambar[nextIndex];
+      
+      // Munculkan lagi
+      imgMain.style.opacity = '1';
+      imgPrev.style.opacity = '0.5'; // Preview agak transparan
+      imgNext.style.opacity = '0.5'; // Preview agak transparan
+    }, 150);
+  }
+
+  // Keyboard Navigation
   document.addEventListener('keydown', function(event) {
-    if (event.key === "Escape") {
-      tutupPopup();
+    const overlay = document.getElementById('overlayPopup');
+    if (!overlay.classList.contains('hidden')) {
+      if (event.key === "Escape") tutupPopup();
+      if (event.key === "ArrowRight") gantiHewan(1);
+      if (event.key === "ArrowLeft") gantiHewan(-1);
     }
   });
-  </script>
-
+</script>
 </div>
     <div
-      id="page tiga"
-      class="bg-dark-charcoal min-h-screen p-4 md:p-8 font-sans text-white bg-cover bg-center bg-no-repeat"
-      style="background-image: url('assets/img/Ijo\ tua\ comp.png')"
-    >
-      <header class="flex justify-center md:-mb-48 relative z-10 -mt-24">
-        <!-- Nilai margin-bottom negatif ditingkatkan --><!-- Menggunakan gambar yang diunggah sebagai logo --><img
-          src="assets/img/Merchandise.png"
-          alt="Logo Zoonk! bergaya coretan"
-          class="max-w-full h-auto w-[1000px] object-contain"
-          onerror="this.onerror=null;this.src='https://placehold.co/600x200/2F3C34/B3A2C7?text=ZOONK!+LOGO';"
-        />
-      </header>
+  id="page tiga"
+  class="bg-dark-charcoal min-h-screen p-4 md:p-8 font-sans text-white bg-cover bg-center bg-no-repeat"
+  style="background-image: url('assets/img/Ijo\ tua\ comp.png')"
+>
+  <header class="flex justify-center md:-mb-48 relative z-10 -mt-24">
+    <img
+      src="assets/img/Merchandise.png"
+      alt="Logo Zoonk! bergaya coretan"
+      class="max-w-full h-auto w-[1000px] object-contain"
+      onerror="this.onerror=null;this.src='https://placehold.co/600x200/2F3C34/B3A2C7?text=ZOONK!+LOGO';"
+    />
+  </header>
 
-      <main class="container max-w-5xl mx-auto mt-12 mb-24">
-        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-10 justify-items-center">
+  <main class="container max-w-5xl mx-auto mt-12 mb-32">
+  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-16 md:gap-y-20 justify-items-center">
 
-            <!-- CARD 1: Kaos -->
-            <div class="w-full max-w-[280px] h-[380px] bg-card-purple shadow-xl flex flex-col items-center pt-8 hover:scale-105 transition-transform duration-200">
-                <h2 class="font-body font-black text-2xl text-[#fbfef7] mb-6 tracking-wide drop-shadow-md">Kaos</h2>
-                <div class="w-48 h-36 md:w-52 md:h-40 bg-circle-green rounded-[50%] flex items-center justify-center shadow-inner transform -rotate-1 overflow-hidden p-4">
-                    <!-- Image src sesuai nama file -->
-                    <img src="assets/img/kaos.png" alt="Kaos" class="w-full h-full object-contain drop-shadow-sm" onerror="this.onerror=null; this.src='https://placehold.co/200x200/dcedc1/16281a?text=Kaos';">
-                </div>
-              <p class="font-display text-5xl text-[#fbfef7] mt-10 drop-shadow-lg transform -rotate-2">$6</p>
-            </div>
-
-            <!-- CARD 2: Totebag -->
-            <div class="w-full max-w-[280px] h-[380px] bg-card-purple shadow-xl flex flex-col items-center pt-8 hover:scale-105 transition-transform duration-200">
-                <h2 class="font-body font-black text-2xl text-[#fbfef7] mb-6 tracking-wide drop-shadow-md">Totebag</h2>
-                <div class="w-48 h-36 md:w-52 md:h-40 bg-circle-green rounded-[50%] flex items-center justify-center shadow-inner transform rotate-1 overflow-hidden p-4">
-                    <img src="assets/img/totebag.png" alt="Totebag" class="w-full h-full object-contain drop-shadow-sm" onerror="this.onerror=null; this.src='https://placehold.co/200x200/dcedc1/16281a?text=Totebag';">
-                </div>
-                <p class="font-display text-5xl text-[#fbfef7] mt-10 drop-shadow-lg transform -rotate-2">$3</p>
-            </div>
-
-            <!-- CARD 3: Bucket Hat -->
-            <div class="w-full max-w-[280px] h-[380px] bg-card-purple shadow-xl flex flex-col items-center pt-8 hover:scale-105 transition-transform duration-200">
-                <h2 class="font-body font-black text-2xl text-[#fbfef7] mb-6 tracking-wide drop-shadow-md">Bucket Hat</h2>
-                <div class="w-48 h-36 md:w-52 md:h-40 bg-circle-green rounded-[50%] flex items-center justify-center shadow-inner transform -rotate-1 overflow-hidden p-4">
-                    <img src="assets/img/foto topi nobg.png" alt="Bucket Hat" class="w-full h-full object-contain drop-shadow-sm" onerror="this.onerror=null; this.src='https://placehold.co/200x200/dcedc1/16281a?text=Bucket';">
-                </div>
-                <p class="font-display text-5xl text-[#fbfef7] mt-10 drop-shadow-lg transform -rotate-2">$2</p>
-            </div>
-
-            <!-- CARD 4: Pins -->
-            <div class="w-full max-w-[280px] h-[380px] bg-card-purple shadow-xl flex flex-col items-center pt-8 hover:scale-105 transition-transform duration-200">
-                <h2 class="font-body font-black text-2xl text-[#fbfef7] mb-6 tracking-wide drop-shadow-md">Pins</h2>
-                <div class="w-48 h-36 md:w-52 md:h-40 bg-circle-green rounded-[50%] flex items-center justify-center shadow-inner transform rotate-2 overflow-hidden p-4">
-                    <img src="assets/img/pins.png" alt="Pins" class="w-full h-full object-contain drop-shadow-sm" onerror="this.onerror=null; this.src='https://placehold.co/200x200/dcedc1/16281a?text=Pins';">
-                </div>
-                <p class="font-display text-5xl text-[#fbfef7] mt-10 drop-shadow-lg transform -rotate-2">$1</p>
-            </div>
-
-            <!-- CARD 5: Handfan -->
-            <div class="w-full max-w-[280px] h-[380px] bg-card-purple shadow-xl flex flex-col items-center pt-8 hover:scale-105 transition-transform duration-200">
-                <h2 class="font-body font-black text-2xl text-[#fbfef7] mb-6 tracking-wide drop-shadow-md">Handfan</h2>
-                <div class="w-48 h-36 md:w-52 md:h-40 bg-circle-green rounded-[50%] flex items-center justify-center shadow-inner transform -rotate-1 overflow-hidden p-4">
-                    <img src="assets/img/handfan.png" alt="Handfan" class="w-full h-full object-contain drop-shadow-sm" onerror="this.onerror=null; this.src='https://placehold.co/200x200/dcedc1/16281a?text=Handfan';">
-                </div>
-                <p class="font-display text-5xl text-[#fbfef7] mt-10 drop-shadow-lg transform -rotate-2">$1</p>
-            </div>
-
-            <!-- CARD 6: Keychain -->
-            <div class="w-full max-w-[280px] h-[380px] bg-card-purple shadow-xl flex flex-col items-center pt-8 hover:scale-105 transition-transform duration-200">
-                <h2 class="font-body font-black text-2xl text-[#fbfef7] mb-6 tracking-wide drop-shadow-md">Keychain</h2>
-                <div class="w-48 h-36 md:w-52 md:h-40 bg-circle-green rounded-[50%] flex items-center justify-center shadow-inner transform rotate-1 overflow-hidden p-4">
-                    <img src="assets/img/keychain.png" alt="Keychain" class="w-full h-full object-contain drop-shadow-sm" onerror="this.onerror=null; this.src='https://placehold.co/200x200/dcedc1/16281a?text=Keychain';">
-                </div>
-                <p class="font-display text-5xl text-[#fbfef7] mt-10 drop-shadow-lg transform -rotate-2">$1</p>
-            </div>
-
-        </div>
-    </main>
+    <div onclick="bukaModal(0)" class="w-full max-w-[280px] h-[380px] shadow-xl flex flex-col items-center pt-8 hover:scale-105 transition-transform duration-200 rounded-lg">
+      <img src="assets/img/kaos.png" alt="Kaos" class="scale-[1.5] md:scale-[1.7] object-contain h-[240px] drop-shadow-2xl relative z-10 transition-transform" onerror="this.onerror=null; this.src='https://placehold.co/200x200/dcedc1/16281a?text=Kaos';">
     </div>
+
+    <div onclick="bukaModal(1)" class="w-full max-w-[280px] h-[380px] shadow-xl flex flex-col items-center pt-8 hover:scale-105 transition-transform duration-200 rounded-lg">
+      <img src="assets/img/totebag.png" alt="Totebag" class="scale-[1.5] md:scale-[1.7] object-contain h-[240px] drop-shadow-2xl relative z-10 transition-transform" onerror="this.onerror=null; this.src='https://placehold.co/200x200/dcedc1/16281a?text=Totebag';">
+    </div>
+
+    <div onclick="bukaModal(2)" class="w-full max-w-[280px] h-[380px] shadow-xl flex flex-col items-center pt-8 hover:scale-105 transition-transform duration-200 rounded-lg">
+      <img src="assets/img/Cap.png" alt="Cap" class="scale-[1.5] md:scale-[1.7] object-contain h-[240px] drop-shadow-2xl relative z-10 transition-transform" onerror="this.onerror=null; this.src='https://placehold.co/200x200/dcedc1/16281a?text=Cap';">
+    </div>
+
+    <div onclick="bukaModal(3)" class="w-full max-w-[280px] h-[380px] shadow-xl flex flex-col items-center pt-8 hover:scale-105 transition-transform duration-200 rounded-lg">
+      <img src="assets/img/pins.png" alt="Pins" class="scale-[1.5] md:scale-[1.7] object-contain h-[240px] drop-shadow-2xl relative z-10 transition-transform" onerror="this.onerror=null; this.src='https://placehold.co/200x200/dcedc1/16281a?text=Pins';">
+    </div>
+
+    <div onclick="bukaModal(4)" class="w-full max-w-[280px] h-[380px] shadow-xl flex flex-col items-center pt-8 hover:scale-105 transition-transform duration-200 rounded-lg">
+      <img src="assets/img/keychain.png" alt="Keychain" class="scale-[1.5] md:scale-[1.7] object-contain h-[240px] drop-shadow-2xl relative z-10 transition-transform" onerror="this.onerror=null; this.src='https://placehold.co/200x200/dcedc1/16281a?text=Keychain';">
+    </div>
+
+    <div onclick="bukaModal(5)" class="w-full max-w-[280px] h-[380px] shadow-xl flex flex-col items-center pt-8 hover:scale-105 transition-transform duration-200 rounded-lg">
+      <img src="assets/img/handfan.png" alt="handfan" class="scale-[1.5] md:scale-[1.7] object-contain h-[240px] drop-shadow-2xl relative z-10 transition-transform" onerror="this.onerror=null; this.src='https://placehold.co/200x200/dcedc1/16281a?text=Handfan';">
+    </div>
+
+  </div>
+</main>
+</div>
+
+<div id="modalMerch" class="hidden fixed inset-0 z-50 bg-black bg-opacity-80 backdrop-blur-sm flex justify-center items-center p-4" onclick="tutupModal()">
+    
+    <div class="relative flex items-center justify-center w-full max-w-4xl max-h-[85vh]" onclick="event.stopPropagation()">
+
+      <button onclick="gantiItem(-1)" class="absolute left-0 md:-left-12 z-50 w-12 h-12 md:w-16 md:h-16 bg-[#6B3434] hover:bg-[#8B4444] rounded-full flex items-center justify-center shadow-lg border-2 border-[#8B4444] transition-transform active:scale-90 group">
+        <svg class="w-6 h-6 md:w-8 md:h-8 text-[#C5A0CB] fill-current group-hover:-translate-x-1 transition-transform" viewBox="0 0 24 24">
+          <path d="M15 19l-7-7 7-7" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </button>
+
+      <img id="modalImg" src="" alt="Detail Produk" 
+           class="max-w-full max-h-[85vh] object-contain drop-shadow-2xl rounded-xl transition-all duration-300 transform scale-100">
+
+      <button onclick="gantiItem(1)" class="absolute right-0 md:-right-12 z-50 w-12 h-12 md:w-16 md:h-16 bg-[#6B3434] hover:bg-[#8B4444] rounded-full flex items-center justify-center shadow-lg border-2 border-[#8B4444] transition-transform active:scale-90 group">
+        <svg class="w-6 h-6 md:w-8 md:h-8 text-[#C5A0CB] fill-current group-hover:translate-x-1 transition-transform" viewBox="0 0 24 24">
+          <path d="M9 5l7 7-7 7" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </button>
+
+      <button onclick="tutupModal()" class="absolute -top-12 md:-top-10 right-0 text-white hover:text-gray-300">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+        </svg>
+      </button>
+
+    </div>
+  </div>
+
+  <script>
+    // ============================================
+    // DATA GAMBAR (POP-UP)
+    // ============================================
+    const popupImages = [
+      'assets/img/Kaos.png',      // Index 0
+      'assets/img/Totebag.png',   // Index 1
+      'assets/img/Cap.png',       // Index 2
+      'assets/img/pins.png',      // Index 3
+      'assets/img/Keychain.png',  // Index 4
+      'assets/img/Handfan.png'    // Index 5
+    ];
+
+    let currentIndex = 0;
+
+    function bukaModal(index) {
+      currentIndex = index;
+      updateGambarModal();
+      document.getElementById('modalMerch').classList.remove('hidden');
+    }
+
+    function tutupModal() {
+      document.getElementById('modalMerch').classList.add('hidden');
+    }
+
+    function gantiItem(arah) {
+      currentIndex += arah;
+
+      // Loop Array (Balik ke awal jika habis)
+      if (currentIndex >= popupImages.length) {
+        currentIndex = 0;
+      } else if (currentIndex < 0) {
+        currentIndex = popupImages.length - 1;
+      }
+
+      // Efek Fade In/Out
+      const img = document.getElementById('modalImg');
+      img.style.opacity = 0;
+      img.style.transform = "scale(0.9)";
+      
+      setTimeout(() => {
+        updateGambarModal();
+        img.style.opacity = 1;
+        img.style.transform = "scale(1)";
+      }, 200);
+    }
+
+    function updateGambarModal() {
+      const imgEl = document.getElementById('modalImg');
+      const namaFile = popupImages[currentIndex];
+      imgEl.src = namaFile;
+    }
+
+    // Keyboard support
+    document.addEventListener('keydown', (e) => {
+      const modal = document.getElementById('modalMerch');
+      if (!modal.classList.contains('hidden')) {
+        if(e.key === "Escape") tutupModal();
+        if(e.key === "ArrowRight") gantiItem(1);
+        if(e.key === "ArrowLeft") gantiItem(-1);
+      }
+    });
+  </script>
 
     <div
       id="page empat"
@@ -597,7 +697,7 @@
 
           <!-- Teks di bagian bawah --><!-- Mengubah 'mt-16 sm:mt-8' menjadi 'mt-8' -->
           <div
-            class="-mt-32 mb-12 bg-[#6b4f42] text-yellow-100/90 text-3xl sm:text-4xl font-bold py-4 px-12 rounded-lg transform rotate-1 shadow-lg transition transform hover:scale-105 hover:bg-[#7c5b4f]"
+            class="-mt-32 mb-12 bg-[#6b4f42] text-yellow-100/90 text-3xl sm:text-4xl font-bold py-4 px-12 rounded-lg transform rotate-1"
           >
             Our Next Concert: Lapangan Kukusan
           </div>
